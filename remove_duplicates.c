@@ -2,7 +2,7 @@
 #include<string.h>
 
 void remove_duplicates(char str[100]){
-    int freq_arr[26] ={0}; // 0 means no duplicate ,1 means already in the string don't add that character again
+    int freq_arr[26] ={0}; 
     int res_index = 0;
 
     for(int i=0;i<strlen(str);i++){
