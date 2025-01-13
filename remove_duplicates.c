@@ -24,4 +24,6 @@ int main(){
     remove_duplicates(str);
 
     printf("%s", str);
+
+    return 0;
 }
