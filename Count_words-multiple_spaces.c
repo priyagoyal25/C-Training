@@ -25,4 +25,6 @@ int main(){
 
     printf("%s\n", sentence);
     printf("Words: %d", count);
+
+    return 0;
 }
